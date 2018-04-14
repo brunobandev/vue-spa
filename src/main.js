@@ -5,7 +5,8 @@ import Post from './components/Post.vue'
 import Hello from './components/Hello.vue'
 Vue.use(Router)
 
-require("./assets/sass/main.scss");
+import "./assets/sass/main.scss"
+
 const router = new Router({
   routes: [
     {
